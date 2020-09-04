@@ -13,6 +13,7 @@
     {"id":{"name":"spr_pit_wall","path":"sprites/spr_pit_wall/spr_pit_wall.yy",},"order":4,},
     {"id":{"name":"obj_pit_wall","path":"objects/obj_pit_wall/obj_pit_wall.yy",},"order":6,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"spr_flosswarp1","path":"sprites/spr_flosswarp1/spr_flosswarp1.yy",},"order":6,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

@@ -16,4 +16,14 @@ if(dying){
 		event_user(1);
 	}
 }
+
+if(warp){
+	ability_timer += 1;
+	if(ability_timer >= warp_rate){
+		warp = false;
+		y -= warp_dist;
+		sprite_index = spr_player;
+	}
+	
+}
 	
