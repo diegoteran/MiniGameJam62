@@ -1,6 +1,7 @@
 if(falling){return;}
 vspeed = walk_speed;
+sprite_index= spr_player;
 
 if(!warp){
-	image_angle = 0;
+	facing_angle = 90;
 }

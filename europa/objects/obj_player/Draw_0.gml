@@ -1,4 +1,5 @@
-draw_self();
+
+event_inherited();
 
 if(warp){
 var time_left = (warp_rate- ability_timer) / warp_rate;

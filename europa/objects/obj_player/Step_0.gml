@@ -11,7 +11,7 @@ if(place_meeting(x,y+vspeed, obj_wall)){
 	vspeed = 0;
 }
 
-depth = -1*(y+30);
+depth = -1*((y+(abs(sprite_width)/2)));
 	
 
 // Special States
