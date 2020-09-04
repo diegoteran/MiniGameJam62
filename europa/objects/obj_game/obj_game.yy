@@ -1,17 +1,11 @@
 {
-  "spriteId": {
-    "name": "spr_wall",
-    "path": "sprites/spr_wall/spr_wall.yy",
-  },
-  "solid": true,
+  "spriteId": null,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "obj_object",
-    "path": "objects/obj_object/obj_object.yy",
-  },
-  "physicsObject": true,
+  "parentObjectId": null,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -23,7 +17,9 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wall",
+  "name": "obj_game",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,9 +1,9 @@
 {
   "spriteId": {
-    "name": "spr_wall",
-    "path": "sprites/spr_wall/spr_wall.yy",
+    "name": "spr_pit",
+    "path": "sprites/spr_pit/spr_pit.yy",
   },
-  "solid": true,
+  "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -11,7 +11,7 @@
     "name": "obj_object",
     "path": "objects/obj_object/obj_object.yy",
   },
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
@@ -23,7 +23,10 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"parent":{"name":"obj_pit","path":"objects/obj_pit/obj_pit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_pit","path":"objects/obj_pit/obj_pit.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -31,7 +34,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_wall",
+  "name": "obj_pit",
   "tags": [],
   "resourceType": "GMObject",
 }
