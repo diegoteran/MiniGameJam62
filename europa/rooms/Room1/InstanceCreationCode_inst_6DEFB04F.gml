@@ -1,0 +1,1 @@
+depth = -100*room_width
