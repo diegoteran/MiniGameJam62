@@ -1,3 +1,4 @@
+/// @description Die and Respawn Event
 x = variable_instance_get(global.active_cp, "x")
 y = variable_instance_get(global.active_cp, "y")
 

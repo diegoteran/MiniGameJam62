@@ -1,5 +1,3 @@
 if(warp){
-warp = false;
-y -= warp_dist;
-sprite_index = spr_player;
+event_user(3);
 }

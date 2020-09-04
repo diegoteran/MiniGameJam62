@@ -1,2 +1,2 @@
-// Initial Death Event
+/// @description Init Death
 dying = true;
