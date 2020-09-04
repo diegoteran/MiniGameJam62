@@ -1,13 +1,12 @@
 {
   "resources": [
-    {"id":{"name":"obj_test","path":"objects/obj_test/obj_test.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
-  "isDnDProject": true,
+  "isDnDProject": false,
   "isEcma": false,
   "tutorialPath": "",
   "configs": {
