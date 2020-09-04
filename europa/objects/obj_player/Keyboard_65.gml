@@ -1,1 +1,1 @@
-x -= walk_speed;
+hspeed = -1*walk_speed

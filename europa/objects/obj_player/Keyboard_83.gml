@@ -1,1 +1,1 @@
-y += walk_speed;
+vspeed = walk_speed;
