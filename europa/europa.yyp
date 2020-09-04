@@ -8,14 +8,17 @@
     {"id":{"name":"obj_checkpoint","path":"objects/obj_checkpoint/obj_checkpoint.yy",},"order":2,},
     {"id":{"name":"spr_checkpoint","path":"sprites/spr_checkpoint/spr_checkpoint.yy",},"order":3,},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
+    {"id":{"name":"obj_room_warp","path":"objects/obj_room_warp/obj_room_warp.yy",},"order":7,},
     {"id":{"name":"spr_warp","path":"sprites/spr_warp/spr_warp.yy",},"order":7,},
     {"id":{"name":"spr_pit","path":"sprites/spr_pit/spr_pit.yy",},"order":5,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"spr_pit_wall","path":"sprites/spr_pit_wall/spr_pit_wall.yy",},"order":4,},
+    {"id":{"name":"spr_room_warp","path":"sprites/spr_room_warp/spr_room_warp.yy",},"order":8,},
     {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},"order":0,},
     {"id":{"name":"obj_pit_wall","path":"objects/obj_pit_wall/obj_pit_wall.yy",},"order":6,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_flosswarp1","path":"sprites/spr_flosswarp1/spr_flosswarp1.yy",},"order":6,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -31,6 +34,7 @@
   },
   "RoomOrder": [
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
+    {"name":"Room2","path":"rooms/Room2/Room2.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
