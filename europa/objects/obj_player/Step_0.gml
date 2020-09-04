@@ -5,3 +5,6 @@ if(place_meeting(x+hspeed,y, obj_wall)){
 	if(place_meeting(x,y+vspeed, obj_wall)){
 	vspeed = 0;
 	}
+	
+	
+image_angle += 5;
