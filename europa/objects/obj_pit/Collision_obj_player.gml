@@ -6,5 +6,5 @@
 
 other.falling = true;
 other.dying = true;
-other.direction = point_direction(other.x,other.y, x, y);
-other.speed = 6;
+//other.direction = point_direction(other.x,other.y, x, y);
+//other.speed = 6;
