@@ -7,11 +7,11 @@ can_move = true;
 // Warp
 warp_enabled = false;
 warp = false;
-warp_dist = -40;
+warp_dist = -55;
 warp_timer = 0;
 warp_rate = 60;
 warp_ready = true;
-warp_cooldown = 15;
+warp_cooldown = 45;
 facing_direction = 0;
 warp_cooldown_timer = 0;
 

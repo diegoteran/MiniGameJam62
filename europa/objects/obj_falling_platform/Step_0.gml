@@ -1,10 +1,21 @@
 if(breaking){
 	step +=1;
-	image_alpha -= (1/breaking_time); 
+	if(step%15 == 0){
+		image_angle = 5 * shake_coefficient; 
+		shake_coefficient *= -1;
+	}
 	if(step >= breaking_time){
+		falling = true;		
+	}
+}
+if(falling){
+	image_xscale -= 0.1;
+	image_yscale -= 0.1;
+	if(image_xscale <= 0 || image_yscale <= 0){
 		pit = instance_create_layer(x,y,"Instances",obj_pit);
 		pit.image_xscale = 0.25;
 		pit.image_yscale = 0.25;
-		instance_destroy();		
+		instance_destroy();
 	}
+	
 }

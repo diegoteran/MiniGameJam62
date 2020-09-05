@@ -24,8 +24,8 @@ depth = -1*((y+(abs(sprite_width)/2)));
 // Special States
 if(dying){
 	if (falling) {
-		image_xscale -= (1/(140))*(abs(image_xscale)/image_xscale);
-		image_yscale -= 1/(140)*(abs(image_yscale)/image_yscale);
+		image_xscale -= (1/(75))*(abs(image_xscale)/image_xscale);
+		image_yscale -= 1/(75)*(abs(image_yscale)/image_yscale);
 		if(abs(image_xscale) <= 0.1 ||abs(image_yscale) <= 0.1){
 			event_user(1);
 		}

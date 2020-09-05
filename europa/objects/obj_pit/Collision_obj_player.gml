@@ -8,4 +8,4 @@ audio_play_sound(snd_falling, 1, false);
 other.falling = true;
 other.dying = true;
 other.direction = point_direction(other.x,other.y, x, y);
-other.speed = 2;
+other.speed = 0.5;
