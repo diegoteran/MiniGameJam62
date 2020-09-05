@@ -14,6 +14,14 @@ warp_cooldown = 15;
 facing_direction = 0;
 warp_cooldown_timer = 0;
 
+// shrinking
+shrunk = false;
+shrink_scale = 0.5;
+shrink_timer = 0;
+shrink_ready = true;
+shrink_cooldown = 180;
+shrink_cooldown_timer = 0;
+shrink_rate = 60;
 
 // ghost mode
 ghost_enabled = false;

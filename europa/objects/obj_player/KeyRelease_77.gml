@@ -1,3 +1,6 @@
 /// @description Shrink Ability
 // You can write your code in this editor
-event_user(6);
+
+if (shrunk) {
+	event_user(7)
+}
