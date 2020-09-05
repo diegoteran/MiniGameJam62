@@ -8,3 +8,4 @@ image_yscale = 1;
 falling = false;
 dying = false;
 speed = 0;
+warp = false;

@@ -2,12 +2,15 @@ dying = false;
 falling = false;
 walk_speed = 2;
 collision_coeff = 1.1;
+
+// Warp
+warp_enabled = false;
 warp = false;
-warp_dist = -128;
+warp_dist = -32;
 warp_timer = 0;
 warp_rate = 60;
 warp_ready = true;
-warp_cooldown = 180;
+warp_cooldown = 30;
 facing_angle = 0;
 warp_cooldown_timer = 0;
 

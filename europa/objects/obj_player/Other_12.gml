@@ -1,5 +1,5 @@
 /// @description Warp Start Event
-if(warp_ready){
+if(warp_ready && warp_enabled){
 	warp = true;
 	switch(facing_angle){
 		case 0:
@@ -19,4 +19,9 @@ if(warp_ready){
 	warp_timer = 0;
 
 	facing_angle = (facing_angle + 180)%360;
+	
+	if(place_meeting(x,y,obj_wall)){	
+	dying = true;
+}
+	
 }
