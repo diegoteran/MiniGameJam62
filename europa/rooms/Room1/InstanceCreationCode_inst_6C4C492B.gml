@@ -1,4 +1,4 @@
 event_inherited();
 targetRoom = Room2
-targetX = 600
-targetY = 200
+targetX = 320
+targetY = 129
