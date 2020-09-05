@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_pit",
-    "path": "sprites/spr_pit/spr_pit.yy",
+    "name": "spr_hole",
+    "path": "sprites/spr_hole/spr_hole.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {

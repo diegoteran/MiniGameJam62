@@ -1,13 +1,17 @@
 dying = false;
 falling = false;
-walk_speed = 5;
+walk_speed = 2;
 collision_coeff = 1.1;
+
+// Warp
+warp_enabled = false;
 warp = false;
-warp_dist = -128;
+warp_dist = -40;
 warp_timer = 0;
 warp_rate = 60;
 warp_ready = true;
-warp_cooldown = 180;
+warp_cooldown = 15;
+facing_direction = 0;
 warp_cooldown_timer = 0;
 
 // shrinking
