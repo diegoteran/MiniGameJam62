@@ -1,5 +1,5 @@
 /// @description Shrink Start Event
-if(shrink_ready){
+if(shrink_ready and shrink_enabled){
 	audio_play_sound(snd_shrink, 1, false);
 	shrunk = true;
 	shrink_dist = 0.5 * shrink_scale * sprite_width;

@@ -36,7 +36,7 @@ if(ghost_enabled){
 
 
 //Shrink gui
-if(true /* Add shrink_enabled*/){
+if(shrink_enabled){
 	var sprite_color = shrink_ready ? c_white : c_gray;
 	draw_sprite_ext(spr_player_shrunk, 0, 50, yOffset, 4, 4, 0, sprite_color, 1);
 

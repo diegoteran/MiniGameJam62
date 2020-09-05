@@ -16,6 +16,7 @@ facing_direction = 0;
 warp_cooldown_timer = 0;
 
 // shrinking
+shrink_enabled = false;
 shrunk = false;
 shrink_scale = 0.5;
 shrink_timer = 0;
