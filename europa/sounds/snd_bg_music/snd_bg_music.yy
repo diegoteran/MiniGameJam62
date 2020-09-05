@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_ghost.wav",
-  "duration": 20.7059784,
+  "soundFile": "snd_bg_music.wav",
+  "duration": 19.4760418,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_ghost",
+  "name": "snd_bg_music",
   "tags": [],
   "resourceType": "GMSound",
 }
