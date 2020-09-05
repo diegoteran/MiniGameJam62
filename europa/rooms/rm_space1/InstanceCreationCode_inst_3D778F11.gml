@@ -1,0 +1,1 @@
+text = "The door up ahead won't open, maybe there's some way around it?"

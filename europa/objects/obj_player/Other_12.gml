@@ -1,5 +1,5 @@
 /// @description Warp Start Event
-if(warp_ready){
+if(warp_ready && warp_enabled){
 	warp = true;
 	switch(facing_angle){
 		case 0:

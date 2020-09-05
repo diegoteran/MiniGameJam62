@@ -1,15 +1,12 @@
 {
-  "spriteId": {
-    "name": "spr_sign",
-    "path": "sprites/spr_sign/spr_sign.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_object",
-    "path": "objects/obj_object/obj_object.yy",
+    "name": "obj_sign",
+    "path": "objects/obj_sign/obj_sign.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -24,8 +21,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_npc_animation_giver","path":"objects/obj_npc_animation_giver/obj_npc_animation_giver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_npc_animation_giver","path":"objects/obj_npc_animation_giver/obj_npc_animation_giver.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -34,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_sign",
+  "name": "obj_npc_animation_giver",
   "tags": [],
   "resourceType": "GMObject",
 }
