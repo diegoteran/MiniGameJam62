@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Checkpoint to nearest obj_checkpoint
 // You can write your code in this editor
 variable_instance_set(global.active_cp, "sprite_index", spr_checkpoint)
 

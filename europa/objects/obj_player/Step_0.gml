@@ -25,9 +25,8 @@ if(dying){
 }
 
 if(warp){
-	ability_timer += 1;
-	//gimme a merge conflict
-	if(ability_timer >= warp_rate){
+	warp_timer += 1;
+	if(warp_timer >= warp_rate){
 		event_user(3);
 	}	
 }
@@ -39,3 +38,16 @@ if(!warp_ready){
 	}
 }
 	
+if (ghost) {
+	ghost_timer += 1;
+	if (ghost_timer >= ghost_rate) {
+		event_user(5);
+	}
+}
+
+if (!ghost_ready) {
+	ghost_cooldown_timer += 1;
+	if (ghost_cooldown_timer >= ghost_cooldown_rate) {
+		ghost_ready = true;
+	}
+}
