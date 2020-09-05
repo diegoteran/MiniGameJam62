@@ -12,9 +12,9 @@ if(warp || ghost){
 	if(ghost){ bar_color = c_red;}
 	if(warp){ bar_color = c_purple;}
 	draw_set_color(bar_color);
-	draw_rectangle(x - (sprite_width/2), y + (sprite_width), (x - (sprite_width/2)) + (time_left*(sprite_width)), y+(sprite_width-5), false)
+	draw_rectangle(x - (abs(sprite_width)/2), y + (abs(sprite_width)), (x - (abs(sprite_width)/2)) + (time_left*(abs(sprite_width))), y+(abs(sprite_width)-5), false)
 	draw_set_color(c_white);
-	draw_rectangle(x - (sprite_width/2), y + (sprite_width), (x +(sprite_width/2)), y+(sprite_width-5), true)
+	draw_rectangle(x - (abs(sprite_width)/2), y + (abs(sprite_width)), (x +(abs(sprite_width)/2)), y+(abs(sprite_width)-5), true)
 
 }
 
