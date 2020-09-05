@@ -1,4 +1,4 @@
 event_inherited();
-targetRoom = rm_forest_w
+targetRoom = rm_forest_e
 targetX = 32
 targetY = 112
