@@ -5,6 +5,7 @@ camera_set_view_target(view_camera[view_current], dolly_id);
 dolly_id.speed = 10;
 global.dolly_id = dolly_id;
 
+room_restart();
 x = variable_instance_get(global.active_cp, "x")
 y = variable_instance_get(global.active_cp, "y")
 
