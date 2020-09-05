@@ -10,7 +10,7 @@ warp_dist = -32;
 warp_timer = 0;
 warp_rate = 60;
 warp_ready = true;
-warp_cooldown = 180;
+warp_cooldown = 30;
 facing_angle = 0;
 warp_cooldown_timer = 0;
 
