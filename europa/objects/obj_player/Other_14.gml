@@ -7,4 +7,4 @@ if (!ghost_ready) {
 
 ghost = true
 ghost_timer = 0;
-sprite_index = spr_warp
+sprite_index = spr_ghost
