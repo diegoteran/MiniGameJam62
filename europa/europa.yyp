@@ -15,6 +15,7 @@
     {"id":{"name":"spr_warp","path":"sprites/spr_warp/spr_warp.yy",},"order":7,},
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},"order":12,},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},"order":13,},
+    {"id":{"name":"spr_pushable","path":"sprites/spr_pushable/spr_pushable.yy",},"order":16,},
     {"id":{"name":"spr_pit","path":"sprites/spr_pit/spr_pit.yy",},"order":5,},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":2,},
     {"id":{"name":"spr_pit_wall","path":"sprites/spr_pit_wall/spr_pit_wall.yy",},"order":4,},
@@ -38,7 +39,7 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_flosswarp_down","path":"sprites/spr_flosswarp_down/spr_flosswarp_down.yy",},"order":6,},
     {"id":{"name":"rm_forest_entrance","path":"rooms/rm_forest_entrance/rm_forest_entrance.yy",},"order":4,},
-    {"id":{"name":"obj_rock","path":"objects/obj_rock/obj_rock.yy",},"order":12,},
+    {"id":{"name":"obj_pushable","path":"objects/obj_pushable/obj_pushable.yy",},"order":13,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
