@@ -2,7 +2,11 @@ if(falling || !can_move){return;}
 vspeed = walk_speed;
 
 
-if(!warp  and !ghost and !shrunk){
+if(!warp and !shrunk){
 	facing_direction = 90;
-	sprite_index= spr_player;
+	if (ghost) {
+		sprite_index = spr_ghost;
+	} else { 
+		sprite_index= spr_player;
+	}
 }

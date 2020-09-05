@@ -8,4 +8,3 @@ if (!ghost_ready or !ghost_enabled) {
 audio_play_sound(snd_ghost, 1, false);
 ghost = true
 ghost_timer = 0;
-sprite_index = spr_ghost
