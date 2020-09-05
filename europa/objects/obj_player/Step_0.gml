@@ -13,7 +13,7 @@ if(place_meeting(x,y+vspeed, obj_wall)){
 }
 
 depth = -1*((y+(abs(sprite_width)/2)));
-
+	
 
 // Special States
 if(dying){
