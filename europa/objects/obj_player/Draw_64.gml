@@ -25,25 +25,25 @@ if(ghost_enabled){
 		draw_set_color(c_white);
 		draw_text(74,yOffset,string_format(floor(ghost_cooldown_rate - ghost_cooldown_timer)/60,0,0))
 	}
+	
+	if(!ghost_ready){
+		draw_set_font(fnt_ui);
+		draw_set_color(c_white);
+		draw_text(74,yOffset,string_format(floor(ghost_cooldown_rate - ghost_cooldown_timer)/60,0,0))
+	}
 	yOffset += 64;
-if(!ghost_ready){
-	draw_set_font(fnt_ui);
-	draw_set_color(c_white);
-	draw_text(74,yOffset,string_format(floor(ghost_cooldown_rate - ghost_cooldown_timer)/60,0,0))
-}
-yOffset += 64;
 }
 
 
 //Shrink gui
 if(true /* Add shrink_enabled*/){
-var sprite_color = shrink_ready ? c_white : c_gray;
-draw_sprite_ext(spr_player_shrunk, 0, 50, yOffset, 4, 4, 0, sprite_color, 1);
+	var sprite_color = shrink_ready ? c_white : c_gray;
+	draw_sprite_ext(spr_player_shrunk, 0, 50, yOffset, 4, 4, 0, sprite_color, 1);
 
-if(!shrink_ready){
-	draw_set_font(fnt_ui);
-	draw_set_color(c_white);
-	draw_text(74,yOffset,string_format(floor(shrink_cooldown - shrink_cooldown_timer)/60,0,0))
-}
-yOffset += 64;
+	if(!shrink_ready){
+		draw_set_font(fnt_ui);
+		draw_set_color(c_white);
+		draw_text(74,yOffset,string_format(floor(shrink_cooldown - shrink_cooldown_timer)/60,0,0))
+	}
+	yOffset += 64;
 }
