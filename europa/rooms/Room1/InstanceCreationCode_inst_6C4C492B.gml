@@ -1,3 +1,4 @@
-targetRoom = Room2
-targetX = 600
-targetY = 200
+event_inherited();
+targetRoom = rm_forest_entrance
+targetX = 64
+targetY = 384
