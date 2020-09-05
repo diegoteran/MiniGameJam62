@@ -1,5 +1,6 @@
 /// @description Shrink stop event
 	shrunk = false;
+	audio_play_sound(snd_grow, 1, false);
 	shrink_dist = 0.5 * sprite_width;
 	switch(facing_direction){
 		case 0:

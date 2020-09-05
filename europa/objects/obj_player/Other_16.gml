@@ -1,5 +1,6 @@
 /// @description Shrink Start Event
 if(shrink_ready){
+	audio_play_sound(snd_shrink, 1, false);
 	shrunk = true;
 	shrink_dist = 0.5 * shrink_scale * sprite_width;
 	sprite_index = spr_player_shrunk;

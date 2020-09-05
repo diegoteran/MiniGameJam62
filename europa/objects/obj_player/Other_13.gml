@@ -1,5 +1,8 @@
 /// @description Warp Stop Event
+if(falling){return;}
+
 warp = false;
+audio_play_sound(snd_warp_back, 1, false);
 var fadeout1 = instance_create_layer(x,y, "Instances", obj_fadeout);
 fadeout1.sprite_index= sprite_index;
 fadeout1.fade_out = 10;

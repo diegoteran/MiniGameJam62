@@ -1,6 +1,7 @@
 /// @description Warp Start Event
 if(warp_ready && warp_enabled){
 	warp = true;
+	audio_play_sound(snd_warp_to, 1, false);
 	
 	var fadeout1 = instance_create_layer(x,y, "Instances", obj_fadeout);
 	fadeout1.sprite_index= sprite_index;

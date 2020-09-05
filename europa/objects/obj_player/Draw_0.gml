@@ -1,6 +1,7 @@
 
 event_inherited();
 
+if(falling){return;}
 if(warp || ghost || shrunk){
 	var time_left = 0;
 		if(warp){
