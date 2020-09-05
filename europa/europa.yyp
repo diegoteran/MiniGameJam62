@@ -18,6 +18,7 @@
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},"order":13,},
     {"id":{"name":"spr_pushable","path":"sprites/spr_pushable/spr_pushable.yy",},"order":16,},
     {"id":{"name":"spr_pit","path":"sprites/spr_pit/spr_pit.yy",},"order":5,},
+    {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},"order":17,},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},"order":2,},
     {"id":{"name":"spr_pit_wall","path":"sprites/spr_pit_wall/spr_pit_wall.yy",},"order":4,},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},"order":3,},
