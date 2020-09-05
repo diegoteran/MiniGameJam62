@@ -142,8 +142,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "forest",
+    "path": "folders/Rooms/forest.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_forest_w",
