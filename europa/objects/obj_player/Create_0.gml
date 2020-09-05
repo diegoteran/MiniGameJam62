@@ -16,6 +16,7 @@ warp_cooldown_timer = 0;
 
 
 // ghost mode
+ghost_enabled = false;
 ghost = false;
 ghost_ready = true;
 ghost_cooldown_timer = 0;
