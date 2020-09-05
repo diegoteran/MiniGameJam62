@@ -1,7 +1,7 @@
 /// @description Ghost Start Event
 // You can write your code in this editor
 
-if (!ghost_ready) {
+if (!ghost_ready or !ghost_enabled) {
 	return;
 }
 

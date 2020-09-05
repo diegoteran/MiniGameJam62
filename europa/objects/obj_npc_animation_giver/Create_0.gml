@@ -1,3 +1,3 @@
 event_inherited();
-power = "warp";
+power_text = "warp";
 
