@@ -32,7 +32,7 @@
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"order":13,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_flosswarp_down","path":"sprites/spr_flosswarp_down/spr_flosswarp_down.yy",},"order":6,},
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
+    {"id":{"name":"rm_forest_entrance","path":"rooms/rm_forest_entrance/rm_forest_entrance.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -48,8 +48,8 @@
   },
   "RoomOrder": [
     {"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"rm_forest_entrance","path":"rooms/rm_forest_entrance/rm_forest_entrance.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
-    {"name":"Room2","path":"rooms/Room2/Room2.yy",},
     {"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},
   ],
   "Folders": [
