@@ -8,6 +8,6 @@ for (var i = 0; i < instance_number(obj_key); ++i;)
 		}
     }
 
-if (unlock && point_distance(x,y,obj_player.x, obj_player.y) < sprite_width) {
+if (unlock && distance_to_object(obj_player) < sprite_width * 0.5) {
 	instance_destroy();	
 }
