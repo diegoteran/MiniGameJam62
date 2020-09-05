@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_ghost.wav",
-  "duration": 20.7059784,
+  "duration": 0.705998,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
