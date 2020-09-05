@@ -20,7 +20,6 @@ shrink_scale = 0.5;
 shrink_timer = 0;
 shrink_ready = true;
 shrink_cooldown = 180;
-facing_angle = 0;
 shrink_cooldown_timer = 0;
 shrink_rate = 60;
 
