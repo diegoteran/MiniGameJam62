@@ -59,3 +59,17 @@ if (!ghost_ready) {
 		ghost_ready = true;
 	}
 }
+
+if (shrunk) {
+	shrink_timer += 1;
+	if (shrink_timer >= shrink_rate) {
+		event_user(7);
+	}
+}
+
+if (!shrink_ready) {
+	shrink_cooldown_timer += 1;
+	if (shrink_cooldown_timer >= shrink_cooldown) {
+		shrink_ready = true;
+	}
+}
