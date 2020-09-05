@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_forest_tree","path":"objects/obj_forest_tree/obj_forest_tree.yy",},"order":14,},
+    {"id":{"name":"obj_ice_tile","path":"objects/obj_ice_tile/obj_ice_tile.yy",},"order":21,},
     {"id":{"name":"obj_pit","path":"objects/obj_pit/obj_pit.yy",},"order":5,},
     {"id":{"name":"spr_forest_tree","path":"sprites/spr_forest_tree/spr_forest_tree.yy",},"order":19,},
     {"id":{"name":"spr_checkpoint_active","path":"sprites/spr_checkpoint_active/spr_checkpoint_active.yy",},"order":2,},
@@ -51,6 +52,7 @@
     {"id":{"name":"obj_dolly","path":"objects/obj_dolly/obj_dolly.yy",},"order":17,},
     {"id":{"name":"spr_player_side","path":"sprites/spr_player_side/spr_player_side.yy",},"order":12,},
     {"id":{"name":"spr_forest_bg","path":"sprites/spr_forest_bg/spr_forest_bg.yy",},"order":18,},
+    {"id":{"name":"spr_ice_tile","path":"sprites/spr_ice_tile/spr_ice_tile.yy",},"order":30,},
     {"id":{"name":"spr_floor","path":"sprites/spr_floor/spr_floor.yy",},"order":25,},
     {"id":{"name":"spr_space_shit","path":"sprites/spr_space_shit/spr_space_shit.yy",},"order":29,},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":8,},
@@ -62,6 +64,7 @@
     {"id":{"name":"spr_forest_log","path":"sprites/spr_forest_log/spr_forest_log.yy",},"order":21,},
     {"id":{"name":"spr_flosswarp_up","path":"sprites/spr_flosswarp_up/spr_flosswarp_up.yy",},"order":15,},
     {"id":{"name":"spr_teleport_stuck","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"order":20,},
+    {"id":{"name":"rm_candy","path":"rooms/rm_candy/rm_candy.yy",},"order":12,},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"order":13,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"rm_forest_entrance","path":"rooms/rm_forest_entrance/rm_forest_entrance.yy",},"order":11,},
@@ -94,6 +97,7 @@
     {"name":"rm_space1","path":"rooms/rm_space1/rm_space1.yy",},
     {"name":"rm_forest_0","path":"rooms/rm_forest_0/rm_forest_0.yy",},
     {"name":"rm_forest_entrance","path":"rooms/rm_forest_entrance/rm_forest_entrance.yy",},
+    {"name":"rm_candy","path":"rooms/rm_candy/rm_candy.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -1,4 +1,4 @@
-if(falling){return;}
+if(falling || !can_move){return;}
 hspeed = -1*walk_speed
 
 

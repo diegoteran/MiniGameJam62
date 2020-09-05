@@ -2,6 +2,7 @@ dying = false;
 falling = false;
 walk_speed = 2;
 collision_coeff = 1.1;
+can_move = true;
 
 // Warp
 warp_enabled = false;

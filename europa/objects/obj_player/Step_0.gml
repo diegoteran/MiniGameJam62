@@ -1,6 +1,8 @@
 
 
-
+if (!can_move && !place_meeting(x, y, obj_ice_tile)) {
+	can_move = true;
+}
 
 // Check for Collissions
 if (!place_free(x + hspeed*collision_coeff, y)) {
