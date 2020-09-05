@@ -41,6 +41,7 @@
     {"id":{"name":"obj_pit_wall","path":"objects/obj_pit_wall/obj_pit_wall.yy",},"order":6,},
     {"id":{"name":"spr_flosswarp_up","path":"sprites/spr_flosswarp_up/spr_flosswarp_up.yy",},"order":15,},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},"order":13,},
+    {"id":{"name":"rm_forest_entrance_Child_0","path":"rooms/rm_forest_entrance_Child_0/rm_forest_entrance_Child_0.yy",},"order":6,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"spr_flosswarp_down","path":"sprites/spr_flosswarp_down/spr_flosswarp_down.yy",},"order":6,},
     {"id":{"name":"rm_forest_entrance","path":"rooms/rm_forest_entrance/rm_forest_entrance.yy",},"order":4,},
@@ -66,6 +67,7 @@
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},
     {"name":"rm_overworld","path":"rooms/rm_overworld/rm_overworld.yy",},
+    {"name":"rm_forest_entrance_Child_0","path":"rooms/rm_forest_entrance_Child_0/rm_forest_entrance_Child_0.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
