@@ -32,6 +32,7 @@ if(warp_ready && warp_enabled){
 	
 	dolly_id = instance_create_layer(x-x_dist,y-y_dist,"Instances", obj_dolly);
 	camera_set_view_target(view_camera[view_current], dolly_id);
+	global.dolly_id = dolly_id;
 	
 	warp_timer = 0;
 
