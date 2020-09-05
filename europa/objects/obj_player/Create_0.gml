@@ -1,6 +1,7 @@
 dying = false;
 falling = false;
 walk_speed = 5;
+collision_coeff = 1.1;
 warp = false;
 warp_dist = -128;
 warp_timer = 0;

@@ -4,9 +4,15 @@
 
 // Check for Collissions
 
-if(place_meeting(x+hspeed,y, obj_wall)){
+
+if (!place_free(x + hspeed*collision_coeff, y)) {
 	hspeed = 0;
 }
+
+if (!place_free(x, y + vspeed*collision_coeff)) {
+	vspeed = 0;
+}
+
 
 if(place_meeting(x,y+vspeed, obj_wall)){
 	vspeed = 0;
