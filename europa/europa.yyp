@@ -83,6 +83,7 @@
     {"id":{"name":"rm_forest_entrance","path":"rooms/rm_forest_entrance/rm_forest_entrance.yy",},"order":1,},
     {"id":{"name":"spr_flosswarp_down","path":"sprites/spr_flosswarp_down/spr_flosswarp_down.yy",},"order":6,},
     {"id":{"name":"snd_bg_music","path":"sounds/snd_bg_music/snd_bg_music.yy",},"order":9,},
+    {"id":{"name":"rm_forest_e_n","path":"rooms/rm_forest_e_n/rm_forest_e_n.yy",},"order":3,},
     {"id":{"name":"spr_bad_stars","path":"sprites/spr_bad_stars/spr_bad_stars.yy",},"order":28,},
     {"id":{"name":"rm_forest","path":"rooms/rm_forest/rm_forest.yy",},"order":0,},
     {"id":{"name":"spr_stars","path":"sprites/spr_stars/spr_stars.yy",},"order":26,},
@@ -113,6 +114,7 @@
     {"name":"rm_forest_entrance","path":"rooms/rm_forest_entrance/rm_forest_entrance.yy",},
     {"name":"rm_candy","path":"rooms/rm_candy/rm_candy.yy",},
     {"name":"rm_space2","path":"rooms/rm_space2/rm_space2.yy",},
+    {"name":"rm_forest_e_n","path":"rooms/rm_forest_e_n/rm_forest_e_n.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
