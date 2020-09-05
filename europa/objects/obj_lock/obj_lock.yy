@@ -11,7 +11,7 @@
     "name": "obj_wall",
     "path": "objects/obj_wall/obj_wall.yy",
   },
-  "physicsObject": true,
+  "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
   "physicsGroup": 1,
