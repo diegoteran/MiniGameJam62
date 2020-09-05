@@ -16,7 +16,7 @@ if(warp_ready){
 	}
 	y += lengthdir_y(warp_dist, facing_angle);
 	x += lengthdir_x(warp_dist, facing_angle);
-	ability_timer = 0;
+	warp_timer = 0;
 
 	facing_angle = (facing_angle + 180)%360;
 }
