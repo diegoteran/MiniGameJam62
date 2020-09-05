@@ -2,7 +2,7 @@ if(falling){return;}
 vspeed = walk_speed;
 
 
-if(!warp  and !ghost){
-	facing_angle = 90;
+if((!warp  && !ghost)){
+	facing_direction = 90;
 	sprite_index= spr_player;
 }

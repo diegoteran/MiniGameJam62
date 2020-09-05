@@ -3,8 +3,6 @@
 
 
 // Check for Collissions
-
-
 if (!place_free(x + hspeed*collision_coeff, y)) {
 	hspeed = 0;
 }
@@ -18,9 +16,9 @@ if(place_meeting(x,y+vspeed, obj_wall)){
 	vspeed = 0;
 }
 
+//Update depth
 depth = -1*((y+(abs(sprite_width)/2)));
 	
-
 // Special States
 if(dying){
 	if (falling) {
