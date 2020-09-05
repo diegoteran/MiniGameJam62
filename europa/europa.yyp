@@ -24,6 +24,7 @@
     {"id":{"name":"spr_room_warp","path":"sprites/spr_room_warp/spr_room_warp.yy",},"order":8,},
     {"id":{"name":"spr_flosswarp_side","path":"sprites/spr_flosswarp_side/spr_flosswarp_side.yy",},"order":14,},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"order":9,},
+    {"id":{"name":"spr_rock","path":"sprites/spr_rock/spr_rock.yy",},"order":16,},
     {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},"order":10,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":11,},
     {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},"order":0,},
