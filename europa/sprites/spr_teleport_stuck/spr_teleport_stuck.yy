@@ -26,9 +26,11 @@
   "frames": [
     {"compositeImage":{"FrameId":{"name":"ffa639b8-05ef-4220-8e15-7d1956b7f6b4","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"ffa639b8-05ef-4220-8e15-7d1956b7f6b4","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"LayerId":{"name":"c697e214-b78b-4921-886e-2730ccff0c19","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"ffa639b8-05ef-4220-8e15-7d1956b7f6b4","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"LayerId":{"name":"78d7c602-e7c7-46cf-9553-91574603f581","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_teleport_stuck","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"resourceVersion":"1.0","name":"ffa639b8-05ef-4220-8e15-7d1956b7f6b4","tags":[],"resourceType":"GMSpriteFrame",},
     {"compositeImage":{"FrameId":{"name":"1a8fb0bc-c802-4493-a3f0-ddbdcf5c9018","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"1a8fb0bc-c802-4493-a3f0-ddbdcf5c9018","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"LayerId":{"name":"c697e214-b78b-4921-886e-2730ccff0c19","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"1a8fb0bc-c802-4493-a3f0-ddbdcf5c9018","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"LayerId":{"name":"78d7c602-e7c7-46cf-9553-91574603f581","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_teleport_stuck","path":"sprites/spr_teleport_stuck/spr_teleport_stuck.yy",},"resourceVersion":"1.0","name":"1a8fb0bc-c802-4493-a3f0-ddbdcf5c9018","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -69,7 +71,8 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c697e214-b78b-4921-886e-2730ccff0c19","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"78d7c602-e7c7-46cf-9553-91574603f581","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":false,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"c697e214-b78b-4921-886e-2730ccff0c19","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "Sprites",

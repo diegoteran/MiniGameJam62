@@ -1,1 +1,1 @@
-text="A long time ago, we could move with more than two frame..."
+text="A long time ago, we could move with more than two frames..."
