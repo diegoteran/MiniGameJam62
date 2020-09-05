@@ -13,6 +13,7 @@
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},"order":1,},
     {"id":{"name":"obj_room_warp","path":"objects/obj_room_warp/obj_room_warp.yy",},"order":7,},
     {"id":{"name":"spr_warp","path":"sprites/spr_warp/spr_warp.yy",},"order":7,},
+    {"id":{"name":"rm_overworld","path":"rooms/rm_overworld/rm_overworld.yy",},"order":5,},
     {"id":{"name":"spr_sign","path":"sprites/spr_sign/spr_sign.yy",},"order":12,},
     {"id":{"name":"spr_key","path":"sprites/spr_key/spr_key.yy",},"order":13,},
     {"id":{"name":"spr_pushable","path":"sprites/spr_pushable/spr_pushable.yy",},"order":16,},
@@ -61,6 +62,7 @@
     {"name":"rm_forest_entrance","path":"rooms/rm_forest_entrance/rm_forest_entrance.yy",},
     {"name":"Room1","path":"rooms/Room1/Room1.yy",},
     {"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},
+    {"name":"rm_overworld","path":"rooms/rm_overworld/rm_overworld.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -1,0 +1,1 @@
+text="We all moved energetically with fluid purpose and happiness"
