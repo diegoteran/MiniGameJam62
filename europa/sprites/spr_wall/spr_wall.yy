@@ -1,4 +1,3 @@
-
 {
   "bboxMode": 2,
   "collisionKind": 1,
@@ -76,6 +75,4 @@
   "name": "spr_wall",
   "tags": [],
   "resourceType": "GMSprite",
-
 }
-
