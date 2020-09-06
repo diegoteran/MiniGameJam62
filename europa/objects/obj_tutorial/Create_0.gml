@@ -5,6 +5,7 @@ text = ["Gather around kids and listen to this old cats tale",
 	  "legends say there will be a hero that will go to the temple of motion to save us",
 	  "they will go to the three key worlds and collect new animation frames",
 	  "these new second frames will give them powers untold!",
+	  "they will speak to those worlds' inhabitants using [space]",
 	  "And they will use them to collect the animation gems.",
 	  "so stay away from the temple kids! It is our jobs to keep it safe for the hero",
 	  ];

@@ -22,6 +22,7 @@ if(anim_x){
 		if(room == rm_abyss){
 			instance_destroy();
 			room_goto(rm_overworld);
+			audio_stop_sound(snd_bg_music);
 		}
 	}
 	

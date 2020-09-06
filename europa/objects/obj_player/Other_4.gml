@@ -53,4 +53,8 @@ case rm_candy:
 		global.music = true;
 	}
 	break;
+case rm_win:
+	audio_stop_sound(snd_overworld_bg);
+	audio_play_sound(snd_bg_music, 0, true);
+	break;
 }

@@ -1,13 +1,16 @@
 {
   "spriteId": {
-    "name": "spr_crystal_space",
-    "path": "sprites/spr_crystal_space/spr_crystal_space.yy",
+    "name": "spr_player_three",
+    "path": "sprites/spr_player_three/spr_player_three.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_object",
+    "path": "objects/obj_object/obj_object.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,7 +24,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":4,"eventType":7,"collisionObjectId":null,"parent":{"name":"obj_warp_crystal","path":"objects/obj_warp_crystal/obj_warp_crystal.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"obj_jumping_cat","path":"objects/obj_jumping_cat/obj_jumping_cat.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,7 +33,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_warp_crystal",
+  "name": "obj_jumping_cat",
   "tags": [],
   "resourceType": "GMObject",
 }
