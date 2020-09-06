@@ -2,19 +2,17 @@
 if(shrink_ready and shrink_enabled){
 	audio_play_sound(snd_shrink, 1, false);
 	shrunk = true;
-	shrink_dist = 0.5 * shrink_scale * sprite_width;
-	sprite_index = spr_player_shrunk;
 	mask_index = spr_player_shrunk;
 	switch(facing_direction){
 		case 0:
 		case 180:
-			x += shrink_dist;
+			sprite_index = spr_player_shrunk_side;
 			break;
 		case 90:
-			y += shrink_dist;;
+			sprite_index = spr_player_shrunk_up;
 			break;
 		case 270:
-			y -= shrink_dist;;
+			sprite_index = spr_player_shrunk;
 			break;
 	}
 	shrink_timer = 0;
