@@ -47,4 +47,6 @@ warp_cooldown_timer = 0;
 
 if(place_meeting(x,y,obj_wall)){	
 	dying = true;
+	can_move = false;
+	speed = 0;
 }
