@@ -35,7 +35,11 @@ if(dying){
 			event_user(1);
 		}
 	} else {
-		event_user(1)
+		sprite_index = spr_hurt;
+		death_timer += 1;
+		if (death_timer >= death_rate) {
+			event_user(1)
+		}
 	}
 }
 

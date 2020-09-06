@@ -1,4 +1,4 @@
-if(falling||dying || !can_move){return;}
+if(dying || !can_move){return;}
 vspeed = -1*walk_speed;
 
 

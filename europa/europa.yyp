@@ -24,6 +24,7 @@
     {"id":{"name":"spr_wall_thin","path":"sprites/spr_wall_thin/spr_wall_thin.yy",},"order":17,},
     {"id":{"name":"obj_object","path":"objects/obj_object/obj_object.yy",},"order":3,},
     {"id":{"name":"obj_space_wall_right","path":"objects/obj_space_wall_right/obj_space_wall_right.yy",},"order":7,},
+    {"id":{"name":"spr_hurt","path":"sprites/spr_hurt/spr_hurt.yy",},"order":44,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":16,},
     {"id":{"name":"fnt_sign","path":"fonts/fnt_sign/fnt_sign.yy",},"order":1,},
     {"id":{"name":"spr_particle","path":"sprites/spr_particle/spr_particle.yy",},"order":42,},
