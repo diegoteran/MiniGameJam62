@@ -1,6 +1,7 @@
 /// @description Make player slide
 
 if (other.hspeed != 0) {
+	// Next move is not on the tile
 	if(!place_meeting(other.x + (other.hspeed * collision_coeff), other.y, obj_ice_tile)) {
 		other.can_move = true;
 		other.hspeed = 0;
