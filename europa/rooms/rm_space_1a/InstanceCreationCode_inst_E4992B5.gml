@@ -1,3 +1,3 @@
 targetRoom = rm_overworld;
-targetX = 1152
+targetX = 994
 targetY = 96

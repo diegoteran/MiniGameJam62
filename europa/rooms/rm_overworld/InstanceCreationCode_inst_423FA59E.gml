@@ -1,4 +1,4 @@
 event_inherited();
-targetRoom = rm_space1
-targetX = 171
-targetY = 495
+targetRoom = rm_space_1a
+targetX = 347
+targetY = 246

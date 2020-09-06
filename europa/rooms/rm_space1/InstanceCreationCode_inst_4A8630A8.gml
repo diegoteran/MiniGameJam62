@@ -1,1 +1,0 @@
-pickup_required = false

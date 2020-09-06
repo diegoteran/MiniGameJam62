@@ -1,5 +1,7 @@
-tilesTall = floor((sprite_height * image_yscale)/30)
-tileswide = floor((sprite_width * image_xscale)/32)
+tilesTall = floor((sprite_height * image_yscale)/20)
+tileswide = floor((sprite_width * image_xscale)/90)
+
+depth = 25 * ((room_height-y)/room_height) + 25 * ((room_width-x)/room_width);
 
 //for(var xt = 0; xt < tileswide; xt++){
 //	for(var yt = 0;	yt < tilesTall; yt++){
