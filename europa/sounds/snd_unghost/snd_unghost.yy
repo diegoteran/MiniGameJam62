@@ -13,8 +13,8 @@
   "soundFile": "snd_unghost.wav",
   "duration": 0.166769,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "forest",
+    "path": "folders/Sounds/forest.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_unghost",

@@ -2,6 +2,6 @@
 // You can write your code in this editor
 with(other) {
 	if (killable) {
-		instance_destroy();
+		event_user(0);
 	}
 }
