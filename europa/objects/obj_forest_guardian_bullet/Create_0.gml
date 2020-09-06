@@ -7,5 +7,5 @@ part_bullet = part_type_create();
 
 part_type_alpha2(part_bullet, 1, 0);
 rock_color = make_color_rgb(223, 25, 123)
-part_type_color3(part_bullet, c_red, rock_color, c_white);
+part_type_color3(part_bullet, c_white, c_yellow, c_red);
 part_type_life(part_bullet, 20, 40);
