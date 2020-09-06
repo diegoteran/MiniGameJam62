@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.6,
+  "volume": 0.5,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_the_woods_c.wav",
-  "duration": 66.73915,
+  "soundFile": "snd_revive.wav",
+  "duration": 1.107472,
   "parent": {
-    "name": "forest",
-    "path": "folders/Sounds/forest.yy",
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_the_woods_c",
+  "name": "snd_revive",
   "tags": [],
   "resourceType": "GMSound",
 }
