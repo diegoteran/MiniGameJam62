@@ -73,6 +73,7 @@
     {"id":{"name":"spr_flosswarp_side","path":"sprites/spr_flosswarp_side/spr_flosswarp_side.yy",},"order":3,},
     {"id":{"name":"spr_forest_guardian_bullet","path":"sprites/spr_forest_guardian_bullet/spr_forest_guardian_bullet.yy",},"order":1,},
     {"id":{"name":"spr_forest_wall_right","path":"sprites/spr_forest_wall_right/spr_forest_wall_right.yy",},"order":9,},
+    {"id":{"name":"snd_candyland_bg","path":"sounds/snd_candyland_bg/snd_candyland_bg.yy",},"order":14,},
     {"id":{"name":"obj_npc_animation_giver","path":"objects/obj_npc_animation_giver/obj_npc_animation_giver.yy",},"order":13,},
     {"id":{"name":"spr_space_wall_right","path":"sprites/spr_space_wall_right/spr_space_wall_right.yy",},"order":10,},
     {"id":{"name":"spr_menu","path":"sprites/spr_menu/spr_menu.yy",},"order":9,},

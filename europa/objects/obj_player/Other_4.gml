@@ -21,6 +21,7 @@ case rm_overworld:
 	global.music = false;
 	audio_stop_sound(snd_the_woods_c);
 	audio_stop_sound(snd_space_bg);
+	audio_stop_sound(snd_candyland_bg);
 	audio_play_sound(snd_overworld_bg, 0, true);
 	break;
 case rm_space_1a:
@@ -29,6 +30,15 @@ case rm_space_1a:
 	shrink_enabled = false;
 	if (!global.music) {
 		audio_play_sound(snd_space_bg, 0, true);
+		global.music = true;
+	}
+	break;
+case rm_candy:
+	audio_stop_sound(snd_overworld_bg);
+	ghost_enabled = false;
+	shrink_enabled = false;
+	if (!global.music) {
+		audio_play_sound(snd_candyland_bg, 0, true);
 		global.music = true;
 	}
 	break;
