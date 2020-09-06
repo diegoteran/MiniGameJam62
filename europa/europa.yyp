@@ -28,6 +28,7 @@
     {"id":{"name":"spr_wall_thin","path":"sprites/spr_wall_thin/spr_wall_thin.yy",},"order":16,},
     {"id":{"name":"obj_object","path":"objects/obj_object/obj_object.yy",},"order":3,},
     {"id":{"name":"obj_space_wall_right","path":"objects/obj_space_wall_right/obj_space_wall_right.yy",},"order":7,},
+    {"id":{"name":"rm_space_4a","path":"rooms/rm_space_4a/rm_space_4a.yy",},"order":3,},
     {"id":{"name":"spr_hurt","path":"sprites/spr_hurt/spr_hurt.yy",},"order":27,},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"order":16,},
     {"id":{"name":"fnt_sign","path":"fonts/fnt_sign/fnt_sign.yy",},"order":1,},
@@ -189,6 +190,7 @@
     {"name":"rm_forest_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"rm_forest_e_n_e_e","path":"rooms/rm_forest_e_n_e_e/rm_forest_e_n_e_e.yy",},
     {"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},
+    {"name":"rm_space_4a","path":"rooms/rm_space_4a/rm_space_4a.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
