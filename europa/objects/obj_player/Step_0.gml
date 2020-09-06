@@ -80,3 +80,9 @@ if (!shrink_ready) {
 		shrink_ready = true;
 	}
 }
+
+// Particle effects
+part_system_depth(part_system, depth+1)
+part_emitter_region(part_system, part_emitter, x-8, x+8, y+6,
+					y+10, ps_shape_diamond, ps_distr_gaussian);
+part_emitter_burst(part_system, part_emitter, part_player, 1);
