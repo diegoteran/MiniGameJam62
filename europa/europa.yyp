@@ -80,6 +80,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":9,},
     {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},"order":0,},
     {"id":{"name":"obj_lock","path":"objects/obj_lock/obj_lock.yy",},"order":10,},
+    {"id":{"name":"snd_overworld_bg","path":"sounds/snd_overworld_bg/snd_overworld_bg.yy",},"order":13,},
     {"id":{"name":"spr_trophy","path":"sprites/spr_trophy/spr_trophy.yy",},"order":11,},
     {"id":{"name":"obj_forest_wall","path":"objects/obj_forest_wall/obj_forest_wall.yy",},"order":2,},
     {"id":{"name":"spr_crystal_space","path":"sprites/spr_crystal_space/spr_crystal_space.yy",},"order":43,},
