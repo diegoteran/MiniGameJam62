@@ -1,1 +1,1 @@
-text="You must venture into the adjacent worlds and return the three key frames and bring back our smooth motion"
+text="You must venture into the adjacent worlds and return the three frame gems to bring back our smooth motion"
