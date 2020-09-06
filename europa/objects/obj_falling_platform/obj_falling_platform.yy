@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_platform",
-    "path": "sprites/spr_platform/spr_platform.yy",
+    "name": "spr_space_floor",
+    "path": "sprites/spr_space_floor/spr_space_floor.yy",
   },
   "solid": false,
   "visible": true,

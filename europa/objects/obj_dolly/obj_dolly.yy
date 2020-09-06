@@ -9,7 +9,7 @@
     "name": "spr_dolly",
     "path": "sprites/spr_dolly/spr_dolly.yy",
   },
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
