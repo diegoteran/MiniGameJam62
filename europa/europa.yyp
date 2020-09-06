@@ -117,6 +117,7 @@
     {"id":{"name":"spr_space_shit","path":"sprites/spr_space_shit/spr_space_shit.yy",},"order":8,},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":7,},
     {"id":{"name":"obj_warp_crystal","path":"objects/obj_warp_crystal/obj_warp_crystal.yy",},"order":23,},
+    {"id":{"name":"rm_forest_e_n_e_e","path":"rooms/rm_forest_e_n_e_e/rm_forest_e_n_e_e.yy",},"order":7,},
     {"id":{"name":"obj_forest_guardian","path":"objects/obj_forest_guardian/obj_forest_guardian.yy",},"order":0,},
     {"id":{"name":"rm_space_2a","path":"rooms/rm_space_2a/rm_space_2a.yy",},"order":1,},
     {"id":{"name":"rm_abyss","path":"rooms/rm_abyss/rm_abyss.yy",},"order":18,},
@@ -186,6 +187,7 @@
     {"name":"rm_forest_last","path":"rooms/rm_forest_last/rm_forest_last.yy",},
     {"name":"rm_abyss","path":"rooms/rm_abyss/rm_abyss.yy",},
     {"name":"rm_forest_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
+    {"name":"rm_forest_e_n_e_e","path":"rooms/rm_forest_e_n_e_e/rm_forest_e_n_e_e.yy",},
     {"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},
   ],
   "Folders": [
