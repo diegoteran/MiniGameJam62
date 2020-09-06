@@ -28,7 +28,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "forest",
-    "path": "folders/Objects/space/forest.yy",
+    "path": "folders/Objects/forest.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_forest_wall_right",
