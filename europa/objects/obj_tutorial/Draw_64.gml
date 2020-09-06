@@ -1,11 +1,11 @@
 width = display_get_gui_width();
 height = display_get_gui_height();
 
-draw_set_color(c_white);
-draw_rectangle(50,2*(height/3), width-50, height-50, true)
-
 draw_set_color(c_black);
 draw_rectangle(50,2*(height/3), width-50, height-50, false)
+
+draw_set_color(c_white);
+draw_rectangle(50,2*(height/3), width-50, height-50, true)
 
 draw_set_color(c_white);
 draw_set_font(text_font);
