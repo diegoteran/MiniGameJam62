@@ -2,6 +2,7 @@
 	shrunk = false;
 	audio_play_sound(snd_grow, 1, false);
 	shrink_dist = 0.5 * sprite_width;
+	mask_index = spr_player;
 	switch(facing_direction){
 		case 0:
 		case 180:
