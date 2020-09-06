@@ -1,0 +1,1 @@
+text = "Walls are difficult to destroy, but logs are not."
