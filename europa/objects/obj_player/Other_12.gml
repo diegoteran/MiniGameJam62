@@ -1,5 +1,13 @@
 /// @description Warp Start Event
 if(warp_ready && warp_enabled){
+	var y_dist = lengthdir_y(warp_dist, facing_direction);
+	var x_dist = lengthdir_x(warp_dist, facing_direction);
+		if(place_meeting(x+x_dist,y+y_dist,obj_wall)){
+			//Add failed to warp sound
+			audio_play_sound(snd_hurt,1,false);
+			return;
+	}
+	
 	warp = true;
 	audio_play_sound(snd_warp_to, 1, false);
 	
@@ -20,8 +28,6 @@ if(warp_ready && warp_enabled){
 			sprite_index = spr_flosswarp_down;
 			break;
 	}
-	var y_dist = lengthdir_y(warp_dist, facing_direction);
-	var x_dist = lengthdir_x(warp_dist, facing_direction);
 	
 	var fadeout2 = instance_create_layer(x+(x_dist/2), y+(y_dist/2), "Instances", obj_fadeout);
 	fadeout2.sprite_index= sprite_index;
@@ -39,8 +45,6 @@ if(warp_ready && warp_enabled){
 
 	facing_direction = (facing_direction + 180)%360;
 	
-	if(place_meeting(x,y,obj_wall)){	
-	dying = true;
-}
+
 	
 }

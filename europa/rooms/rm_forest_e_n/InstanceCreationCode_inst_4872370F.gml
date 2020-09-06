@@ -1,3 +1,4 @@
-targetRoom = rm_forest_e
-targetX = 192
-targetY = 16
+event_inherited()
+targetRoom = rm_forest_e_n_e
+targetX = 32
+targetY = 112

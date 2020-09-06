@@ -1,1 +1,0 @@
-text="But then the key frames left us"

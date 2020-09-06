@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_sign",
-    "path": "sprites/spr_sign/spr_sign.yy",
+    "name": "spr_forest_sign",
+    "path": "sprites/spr_forest_sign/spr_forest_sign.yy",
   },
   "solid": false,
   "visible": true,

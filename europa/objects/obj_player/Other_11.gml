@@ -1,4 +1,5 @@
 /// @description Die and Respawn Event
+audio_play_sound(snd_revive, 1, false);
 
 dolly_id = instance_create_layer(x,y,"Instances", obj_dolly);
 camera_set_view_target(view_camera[view_current], dolly_id);
@@ -16,5 +17,6 @@ falling = false;
 dying = false;
 speed = 0;
 warp = false;
-audio_play_sound(snd_revive, 1, false);
+death_timer = 0;
 
+sprite_index = spr_player;

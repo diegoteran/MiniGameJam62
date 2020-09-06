@@ -1,0 +1,1 @@
+text = "Here lies The Hero."

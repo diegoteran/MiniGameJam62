@@ -13,10 +13,6 @@ var x_dist = lengthdir_x(warp_dist, facing_direction);
 var fadeout2 = instance_create_layer(x+(x_dist/2), y+(y_dist/2), "Instances", obj_fadeout);
 fadeout2.sprite_index= sprite_index;
 	fadeout2.fade_out = 20;
-	if(!instance_exists(obj_dolly)){
-	instance_create_layer(x,y,"Instances", obj_dolly);
-	view_object[view_current] = obj_dolly;	
-}
 x+=x_dist;
 y+=y_dist;
 
@@ -47,4 +43,6 @@ warp_cooldown_timer = 0;
 
 if(place_meeting(x,y,obj_wall)){	
 	dying = true;
+	can_move = false;
+	speed = 0;
 }
