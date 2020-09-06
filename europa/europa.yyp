@@ -15,7 +15,6 @@
     {"id":{"name":"obj_gem","path":"objects/obj_gem/obj_gem.yy",},"order":27,},
     {"id":{"name":"spr_checkpoint_active","path":"sprites/spr_checkpoint_active/spr_checkpoint_active.yy",},"order":2,},
     {"id":{"name":"spr_bad_robot","path":"sprites/spr_bad_robot/spr_bad_robot.yy",},"order":0,},
-    {"id":{"name":"spr_player_shrunk","path":"sprites/spr_player_shrunk/spr_player_shrunk.yy",},"order":17,},
     {"id":{"name":"obj_forest_boulder","path":"objects/obj_forest_boulder/obj_forest_boulder.yy",},"order":3,},
     {"id":{"name":"obj_space_floor","path":"objects/obj_space_floor/obj_space_floor.yy",},"order":4,},
     {"id":{"name":"spr_forest_wall_left","path":"sprites/spr_forest_wall_left/spr_forest_wall_left.yy",},"order":8,},
