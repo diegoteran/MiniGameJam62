@@ -30,6 +30,6 @@ ghost_enabled = false;
 ghost = false;
 ghost_ready = true;
 ghost_cooldown_timer = 0;
-ghost_cooldown_rate = 180;
+ghost_cooldown_rate = 90;
 ghost_timer = 0;
 ghost_rate = 60;
