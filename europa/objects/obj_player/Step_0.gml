@@ -11,6 +11,22 @@ if(anim_y){
 return;	
 }
 
+if(anim_x){
+	x += anim_speed_x;
+	//image_angle += 5;
+	depth = -5000;
+	if( abs(x - anim_stop_posx) < 16){
+		anim_x = false;
+		image_angle = 0;
+		can_move = true;
+		if(room == rm_abyss){
+			room_goto(rm_overworld);
+		}
+	}
+	
+return;	
+}
+
 
 
 if (!can_move && !place_meeting(x, y, obj_ice_tile)) {
@@ -44,16 +60,14 @@ if(dying){
 	if (falling) {
 		image_xscale -= (1/(75))*(abs(image_xscale)/image_xscale);
 		image_yscale -= 1/(75)*(abs(image_yscale)/image_yscale);
-		if(abs(image_xscale) <= 0.1 ||abs(image_yscale) <= 0.1){
-			event_user(1);
-		}
 	} else {
 		sprite_index = spr_hurt;
-		death_timer += 1;
-		if (death_timer >= death_rate) {
-			event_user(1)
-		}
 	}
+	death_timer += 1;
+	if (death_timer >= death_rate) {
+		event_user(1)
+	}
+	
 }
 
 if(warp){

@@ -7,6 +7,11 @@ global.music = false;
 
 //animations
 anim_y = false;
+anim_x = false;
+anim_stop_posx = 0;
+anim_stop_posy = 0;
+anim_speed_x = 0;
+anim_speed_y = 0;
 
 // death
 death_timer = 0;

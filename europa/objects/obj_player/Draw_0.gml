@@ -1,6 +1,13 @@
 
 event_inherited();
 
+
+if(room == rm_abyss && anim_speed_x > 0){
+		draw_set_font(fnt_speech_bubble);
+		draw_set_color(c_white);
+		draw_text(x, y - 20, "Nah");
+}
+
 if(falling){return;}
 if(warp || ghost || shrunk){
 	var time_left = 0;
