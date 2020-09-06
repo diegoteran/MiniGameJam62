@@ -1,1 +1,1 @@
-depth = -1*(y+sprite_height/2);
+depth = -1*(y);

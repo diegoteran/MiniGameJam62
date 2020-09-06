@@ -5,7 +5,7 @@ collision_coeff = 1.1;
 can_move = true;
 
 // Warp
-warp_enabled = false;
+warp_enabled = true;
 warp = false;
 warp_dist = -55;
 warp_timer = 0;
