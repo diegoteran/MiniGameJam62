@@ -1,5 +1,4 @@
-/// @description Checkpoint to nearest obj_checkpoint
-// You can write your code in this editor
+//Checkpoint to nearest obj_checkpoint
 variable_instance_set(global.active_cp, "sprite_index", spr_checkpoint)
 
 i_id = instance_nearest(x, y, obj_checkpoint)
@@ -25,6 +24,7 @@ case rm_overworld:
 	audio_play_sound(snd_overworld_bg, 0, true);
 	break;
 case rm_space_1a:
+	warp = false;
 	audio_stop_sound(snd_overworld_bg);
 	ghost_enabled = false;
 	shrink_enabled = false;
@@ -32,6 +32,15 @@ case rm_space_1a:
 		audio_play_sound(snd_space_bg, 0, true);
 		global.music = true;
 	}
+	break;
+case rm_space_2a:
+	warp = false;
+	break;
+case rm_space_3a:
+	anim_y = true;
+	warp = false;
+	anim_speed_y = 5;
+	anim_stop_posy = 400;
 	break;
 case rm_candy:
 	audio_stop_sound(snd_overworld_bg);

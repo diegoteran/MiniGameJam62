@@ -1,3 +1,16 @@
+if(anim_y){
+	y += anim_speed_y;
+	image_angle += 5;
+	depth = -5000;
+	if( abs(y - anim_stop_posy) < 16){
+		anim_y = false;
+		image_angle = 0;
+		audio_play_sound(snd_hurt, 1, false);
+	}
+	
+return;	
+}
+
 
 
 if (!can_move && !place_meeting(x, y, obj_ice_tile)) {

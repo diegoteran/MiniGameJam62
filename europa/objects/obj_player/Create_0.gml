@@ -5,6 +5,9 @@ collision_coeff = 1.1;
 can_move = true;
 global.music = false;
 
+//animations
+anim_y = false;
+
 // death
 death_timer = 0;
 death_rate = 60;
