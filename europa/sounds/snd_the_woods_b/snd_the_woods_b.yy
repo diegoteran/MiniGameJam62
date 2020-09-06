@@ -13,8 +13,8 @@
   "soundFile": "snd_the_woods_b.wav",
   "duration": 66.73915,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "forest",
+    "path": "folders/Sounds/forest.yy",
   },
   "resourceVersion": "1.0",
   "name": "snd_the_woods_b",
