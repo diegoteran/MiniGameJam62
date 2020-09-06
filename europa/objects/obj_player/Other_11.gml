@@ -16,5 +16,5 @@ falling = false;
 dying = false;
 speed = 0;
 warp = false;
-audio_play_sound(snd_hurt, 1, false);
+audio_play_sound(snd_revive, 1, false);
 

@@ -9,6 +9,7 @@
     {"id":{"name":"obj_pit","path":"objects/obj_pit/obj_pit.yy",},"order":3,},
     {"id":{"name":"snd_grow","path":"sounds/snd_grow/snd_grow.yy",},"order":3,},
     {"id":{"name":"spr_forest_tree","path":"sprites/spr_forest_tree/spr_forest_tree.yy",},"order":4,},
+    {"id":{"name":"snd_revive","path":"sounds/snd_revive/snd_revive.yy",},"order":13,},
     {"id":{"name":"spr_checkpoint_active","path":"sprites/spr_checkpoint_active/spr_checkpoint_active.yy",},"order":2,},
     {"id":{"name":"spr_bad_robot","path":"sprites/spr_bad_robot/spr_bad_robot.yy",},"order":0,},
     {"id":{"name":"spr_player_shrunk","path":"sprites/spr_player_shrunk/spr_player_shrunk.yy",},"order":18,},
