@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d8246f99-2886-4e74-b6d4-0c8e4ae368d0","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "space",
+    "path": "folders/Sprites/space.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_warp",

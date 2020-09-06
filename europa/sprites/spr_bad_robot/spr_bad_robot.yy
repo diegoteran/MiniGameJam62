@@ -72,8 +72,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8a207382-44cf-41d5-86ec-1bdd3e24652d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "space",
+    "path": "folders/Sprites/space.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_bad_robot",

@@ -23,7 +23,7 @@ if(place_meeting(x + hspeed,y, obj_wall)){
 }
 
 //Update depth
-depth = -1*(y);
+depth = -1*(y) - 50;
 	
 // Special States
 if(dying){

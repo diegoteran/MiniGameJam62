@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "space",
+    "path": "folders/Objects/space.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pit",
