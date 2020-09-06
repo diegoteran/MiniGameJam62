@@ -30,6 +30,7 @@ shrink_ready = true;
 shrink_cooldown = 180;
 shrink_cooldown_timer = 0;
 shrink_rate = 60;
+shrink_crystal = false;
 
 // ghost mode
 ghost_enabled = false;
@@ -39,6 +40,7 @@ ghost_cooldown_timer = 0;
 ghost_cooldown_rate = 90;
 ghost_timer = 0;
 ghost_rate = 60;
+ghost_crystal = false;
 
 // particle system
 part_system = part_system_create();
