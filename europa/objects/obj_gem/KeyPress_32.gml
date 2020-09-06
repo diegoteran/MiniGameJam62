@@ -5,5 +5,5 @@ event_inherited();
 variable_instance_set(instance_nearest(x,y,obj_player), crystal_name, true);
 
 room_goto(rm_overworld);
-obj_player.x = 992;
-obj_player.y = 192;
+obj_player.x = 198;
+obj_player.y = 103;
