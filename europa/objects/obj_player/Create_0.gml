@@ -5,6 +5,10 @@ collision_coeff = 1.1;
 can_move = true;
 global.music = false;
 
+// death
+death_timer = 0;
+death_rate = 60;
+
 // Warp
 warp_enabled = false;
 warp = false;

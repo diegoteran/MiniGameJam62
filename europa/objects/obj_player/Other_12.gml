@@ -40,7 +40,7 @@ if(warp_ready && warp_enabled){
 	facing_direction = (facing_direction + 180)%360;
 	
 	if(place_meeting(x,y,obj_wall)){	
-	dying = true;
-}
+		event_user(0);
+	}
 	
 }
