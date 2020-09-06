@@ -325,8 +325,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Rooms",
-    "path": "folders/Rooms.yy",
+    "name": "space",
+    "path": "folders/Rooms/space.yy",
   },
   "resourceVersion": "1.0",
   "name": "rm_space2",

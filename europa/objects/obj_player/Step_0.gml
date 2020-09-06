@@ -22,8 +22,9 @@ if(place_meeting(x + hspeed,y, obj_wall)){
 	hspeed = 0;
 }
 
+layer = layer_get_id("Instances");
 //Update depth
-depth = -1*(y) - 50;
+depth = -1*(y) + 3;
 	
 // Special States
 if(dying){
