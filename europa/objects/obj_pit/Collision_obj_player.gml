@@ -3,7 +3,7 @@
 //pit.image_xscale = image_xscale;
 //pit.image_yscale = image_yscale;
 //pit.depth = -room_width
-if(other.falling){return;}
+if(other.falling || other.anim_y){return;}
 audio_play_sound(snd_falling, 1, false);
 other.falling = true;
 other.dying = true;

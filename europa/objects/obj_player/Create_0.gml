@@ -5,6 +5,14 @@ collision_coeff = 1.1;
 can_move = true;
 global.music = false;
 
+//animations
+anim_y = false;
+anim_x = false;
+anim_stop_posx = 0;
+anim_stop_posy = 0;
+anim_speed_x = 0;
+anim_speed_y = 0;
+
 // death
 death_timer = 0;
 death_rate = 60;
@@ -30,7 +38,7 @@ shrink_ready = true;
 shrink_cooldown = 180;
 shrink_cooldown_timer = 0;
 shrink_rate = 60;
-shrink_crystal = false;
+shrink_crystal = true;
 
 // ghost mode
 ghost_enabled = false;
