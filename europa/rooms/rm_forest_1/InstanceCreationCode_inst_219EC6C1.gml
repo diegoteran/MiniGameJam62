@@ -1,0 +1,1 @@
+text = "Guardians will hurt mortal bodies on sight."
