@@ -4,9 +4,11 @@
     {"id":{"name":"obj_space_wall","path":"objects/obj_space_wall/obj_space_wall.yy",},"order":5,},
     {"id":{"name":"spr_robot","path":"sprites/spr_robot/spr_robot.yy",},"order":6,},
     {"id":{"name":"spr_space_rock","path":"sprites/spr_space_rock/spr_space_rock.yy",},"order":18,},
+    {"id":{"name":"rm_forest_boss","path":"rooms/rm_forest_boss/rm_forest_boss.yy",},"order":8,},
     {"id":{"name":"snd_shrink","path":"sounds/snd_shrink/snd_shrink.yy",},"order":4,},
     {"id":{"name":"obj_ice_tile","path":"objects/obj_ice_tile/obj_ice_tile.yy",},"order":16,},
     {"id":{"name":"spr_campfire_bg","path":"sprites/spr_campfire_bg/spr_campfire_bg.yy",},"order":31,},
+    {"id":{"name":"spr_forest_boss","path":"sprites/spr_forest_boss/spr_forest_boss.yy",},"order":15,},
     {"id":{"name":"obj_pit","path":"objects/obj_pit/obj_pit.yy",},"order":3,},
     {"id":{"name":"snd_grow","path":"sounds/snd_grow/snd_grow.yy",},"order":3,},
     {"id":{"name":"spr_forest_tree","path":"sprites/spr_forest_tree/spr_forest_tree.yy",},"order":4,},
@@ -155,6 +157,7 @@
     {"id":{"name":"rm_forest","path":"rooms/rm_forest/rm_forest.yy",},"order":0,},
     {"id":{"name":"spr_stars","path":"sprites/spr_stars/spr_stars.yy",},"order":14,},
     {"id":{"name":"obj_pushable","path":"objects/obj_pushable/obj_pushable.yy",},"order":12,},
+    {"id":{"name":"obj_forest_boss","path":"objects/obj_forest_boss/obj_forest_boss.yy",},"order":18,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -189,6 +192,7 @@
     {"name":"rm_forest_1","path":"rooms/rm_forest_1/rm_forest_1.yy",},
     {"name":"rm_forest_e_n_e_e","path":"rooms/rm_forest_e_n_e_e/rm_forest_e_n_e_e.yy",},
     {"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},
+    {"name":"rm_forest_boss","path":"rooms/rm_forest_boss/rm_forest_boss.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
