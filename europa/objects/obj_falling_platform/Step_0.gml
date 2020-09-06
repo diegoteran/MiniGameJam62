@@ -13,8 +13,8 @@ if(falling){
 	image_yscale -= 0.1;
 	if(image_xscale <= 0 || image_yscale <= 0){
 		pit = instance_create_layer(x-32,y-32,"Instances",obj_pit);
-		pit.image_xscale = 0.5;
-		pit.image_yscale = 0.5;
+		pit.image_xscale = 0.75;
+		pit.image_yscale = 0.75;
 		instance_destroy();
 	}
 	

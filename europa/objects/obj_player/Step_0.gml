@@ -32,16 +32,22 @@ return;
 
 
 if (!can_move && !place_meeting(x, y, obj_ice_tile)) {
-	can_move = true;
+	if (!can_move) {
+		hspeed = 0;
+		vspeed = 0;
+		can_move = true;	
+	}
 }
 
 // Check for Collissions
 if (!place_free(x + hspeed*collision_coeff, y)) {
 	hspeed = 0;
+    can_move = true;
 }
 
 if (!place_free(x, y + vspeed*collision_coeff)) {
 	vspeed = 0;
+	can_move = true;
 }
 
 
