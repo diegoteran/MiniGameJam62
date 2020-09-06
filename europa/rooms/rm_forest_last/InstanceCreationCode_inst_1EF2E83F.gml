@@ -1,0 +1,1 @@
+text = "You found the Gem of Hope!"

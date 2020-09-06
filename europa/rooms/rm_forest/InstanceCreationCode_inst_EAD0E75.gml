@@ -1,3 +1,3 @@
-targetRoom = rm_overworld
-targetX = 1152
-targetY = 96
+targetRoom = rm_forest_last
+targetX = 240
+targetY = 192

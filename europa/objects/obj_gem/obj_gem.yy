@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_forest_sign",
-    "path": "sprites/spr_forest_sign/spr_forest_sign.yy",
+    "name": "spr_forest_gem",
+    "path": "sprites/spr_forest_gem/spr_forest_gem.yy",
   },
   "solid": false,
   "visible": true,
@@ -23,15 +23,17 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"parent":{"name":"obj_gem","path":"objects/obj_gem/obj_gem.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "forest",
-    "path": "folders/Objects/forest.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_forest_sign",
+  "name": "obj_gem",
   "tags": [],
   "resourceType": "GMObject",
 }
