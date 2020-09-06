@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_space_floor",
-    "path": "sprites/spr_space_floor/spr_space_floor.yy",
+    "name": "spr_space_rock",
+    "path": "sprites/spr_space_rock/spr_space_rock.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "space",
+    "path": "folders/Objects/space.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_falling_platform",

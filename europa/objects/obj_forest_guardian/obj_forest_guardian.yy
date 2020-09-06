@@ -31,7 +31,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "forest",
-    "path": "folders/Objects/forest.yy",
+    "path": "folders/Objects/space/forest.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_forest_guardian",
