@@ -6,7 +6,18 @@ i_id = instance_nearest(x, y, obj_checkpoint)
 global.active_cp = i_id
 variable_instance_set(i_id, "sprite_index", spr_checkpoint_active)
 layer = layer_get_id("Instances");
+
 if (room == rm_forest_entrance) {
 	warp_enabled = false;
 	shrink_enabled = false;
+	
+	if (!global.music) {
+	   audio_play_sound(snd_the_woods_c, 0, true);
+	   global.music = true;
+    }
+}
+
+if (room == rm_overworld) {
+	audio_stop_sound(snd_the_woods_c);
+	global.music = false;
 }
