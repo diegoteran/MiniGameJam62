@@ -1,0 +1,1 @@
+pickup_required = false;

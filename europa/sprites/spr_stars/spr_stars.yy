@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"8973adde-d4da-4713-9575-a8bc173b9ce4","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "space",
+    "path": "folders/Sprites/space.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_stars",

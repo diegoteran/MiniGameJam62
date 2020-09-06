@@ -68,8 +68,8 @@
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1c85061c-ebf4-4a24-8b2e-72443fde135c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "space",
+    "path": "folders/Sprites/space.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_flosswarp_up",
