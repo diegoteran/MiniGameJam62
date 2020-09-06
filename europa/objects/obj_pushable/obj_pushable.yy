@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_pushable",
-    "path": "sprites/spr_pushable/spr_pushable.yy",
+    "name": "spr_gumdrop_red",
+    "path": "sprites/spr_gumdrop_red/spr_gumdrop_red.yy",
   },
   "solid": true,
   "visible": true,
@@ -35,8 +35,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "candyland",
+    "path": "folders/Objects/candyland.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_pushable",

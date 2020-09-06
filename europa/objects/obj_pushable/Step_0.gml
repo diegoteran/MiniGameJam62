@@ -1,12 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (place_meeting(x,y,obj_ice_tile)) {
+	can_move = false;	
+}
+
+if (!can_move && !place_meeting(x,y, obj_ice_tile)) {
+	can_move = true;
+	vspeed = 0;
+	hspeed = 0;
+}
+
 if (!place_free(x + hspeed*collision_coeff, y + vspeed*collision_coeff)) {
 	vspeed = 0;
 	hspeed = 0;
 }
 
-if ((vspeed != 0 || hspeed != 0) && point_distance(x,y, pushed_from_x, pushed_from_y) > sprite_width * 2) {
+if (can_move && (vspeed != 0 || hspeed != 0) && point_distance(x,y, pushed_from_x, pushed_from_y) > sprite_width) {
 	vspeed = 0;
 	hspeed = 0;
 }

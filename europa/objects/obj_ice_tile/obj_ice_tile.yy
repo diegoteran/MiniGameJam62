@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "candyland",
+    "path": "folders/Objects/candyland.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_ice_tile",
