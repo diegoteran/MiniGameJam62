@@ -20,6 +20,7 @@ if(anim_x){
 		image_angle = 0;
 		can_move = true;
 		if(room == rm_abyss){
+			instance_destroy();
 			room_goto(rm_overworld);
 		}
 	}

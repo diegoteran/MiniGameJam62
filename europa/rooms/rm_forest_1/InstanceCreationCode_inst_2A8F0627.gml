@@ -1,0 +1,1 @@
+text = "Guardians protect the Crystal of Hope."

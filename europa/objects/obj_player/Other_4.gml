@@ -9,7 +9,7 @@ if(room != rm_abyss){
 }
 
 switch(room){
-case rm_forest_entrance:
+case rm_forest_1:
 	audio_stop_sound(snd_overworld_bg);
 	warp_enabled = false;
 	shrink_enabled = false;
