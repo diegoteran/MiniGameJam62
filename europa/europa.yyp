@@ -114,6 +114,7 @@
     {"id":{"name":"spr_rock","path":"sprites/spr_rock/spr_rock.yy",},"order":16,},
     {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},"order":10,},
     {"id":{"name":"obj_candy_cane_2_snowy","path":"objects/obj_candy_cane_2_snowy/obj_candy_cane_2_snowy.yy",},"order":8,},
+    {"id":{"name":"spr_forest_boss_hurt","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"order":16,},
     {"id":{"name":"obj_ice_cube","path":"objects/obj_ice_cube/obj_ice_cube.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":8,},
     {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},"order":0,},
