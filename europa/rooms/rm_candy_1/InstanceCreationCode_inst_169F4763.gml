@@ -1,1 +1,1 @@
-text="If you need to reset the room, reading this sign will kill you!"
+text="Press R to restart the room!"
