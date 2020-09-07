@@ -1,6 +1,11 @@
 
 event_inherited();
 
+if(warp){
+	var y_dist = lengthdir_y(warp_dist, facing_direction);
+    var x_dist = lengthdir_x(warp_dist, facing_direction);
+	draw_sprite_ext(spr_player_shadow, 0, x+x_dist, y+y_dist, 1, 1, 0,c_white, 0.5);	
+}
 
 if(room == rm_abyss && anim_speed_x > 0){
 		draw_set_font(fnt_speech_bubble);
