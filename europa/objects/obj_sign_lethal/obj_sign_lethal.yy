@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_sign",
-    "path": "sprites/spr_sign/spr_sign.yy",
+    "name": "spr_candy_npc",
+    "path": "sprites/spr_candy_npc/spr_candy_npc.yy",
   },
   "solid": false,
   "visible": true,
