@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 4,
@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 4,
-  "bbox_right": 59,
-  "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_left": 17,
+  "bbox_right": 43,
+  "bbox_top": 30,
+  "bbox_bottom": 51,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"bfb6144a-c6e2-43e3-9164-632d7f5a77e7","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"bfb6144a-c6e2-43e3-9164-632d7f5a77e7","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"LayerId":{"name":"68778c8f-7e0d-4857-827a-93f20dafe80d","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_forest_boss_hurt","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","name":"bfb6144a-c6e2-43e3-9164-632d7f5a77e7","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"e28e341a-6b80-423a-b58a-e6ad8c72b437","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"e28e341a-6b80-423a-b58a-e6ad8c72b437","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"LayerId":{"name":"68778c8f-7e0d-4857-827a-93f20dafe80d","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_forest_boss_hurt","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","name":"e28e341a-6b80-423a-b58a-e6ad8c72b437","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"d56bb0f7-1ec8-4e8b-ae4c-d996f4104463","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"d56bb0f7-1ec8-4e8b-ae4c-d996f4104463","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"LayerId":{"name":"bf250730-bf1a-43a9-bfcd-f4f857a1bfeb","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_forest_boss_hurt","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","name":"d56bb0f7-1ec8-4e8b-ae4c-d996f4104463","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"baec82ee-14b0-4595-8fee-a01b093ca1f6","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"baec82ee-14b0-4595-8fee-a01b093ca1f6","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"LayerId":{"name":"bf250730-bf1a-43a9-bfcd-f4f857a1bfeb","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"spr_forest_boss_hurt","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","name":"baec82ee-14b0-4595-8fee-a01b093ca1f6","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"spr_forest_boss_hurt","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"79999ec4-b764-4d35-8fa1-8998c329ff30","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"bfb6144a-c6e2-43e3-9164-632d7f5a77e7","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"d6963dd7-abed-46a0-994b-1f699ffb63f6","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e28e341a-6b80-423a-b58a-e6ad8c72b437","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"c7eefe68-306d-4041-83ec-7bee2666a60d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d56bb0f7-1ec8-4e8b-ae4c-d996f4104463","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1db9728a-2d81-4dba-83ad-b2a609e04600","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"baec82ee-14b0-4595-8fee-a01b093ca1f6","path":"sprites/spr_forest_boss_hurt/spr_forest_boss_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -69,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"68778c8f-7e0d-4857-827a-93f20dafe80d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bf250730-bf1a-43a9-bfcd-f4f857a1bfeb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "parent": {
     "name": "forest",
