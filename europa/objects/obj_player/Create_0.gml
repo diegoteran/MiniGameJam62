@@ -28,6 +28,7 @@ warp_cooldown = 45;
 facing_direction = 0;
 warp_cooldown_timer = 0;
 warp_crystal = false;
+warp_rot = -13;
 
 // shrinking
 shrink_enabled = false;

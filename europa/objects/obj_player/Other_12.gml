@@ -1,7 +1,12 @@
 /// @description Warp Start Event
 if(warp_ready && warp_enabled){
-	var y_dist = lengthdir_y(warp_dist, facing_direction);
-	var x_dist = lengthdir_x(warp_dist, facing_direction);
+var warping_direction = facing_direction;
+if(facing_direction == 270 || facing_direction ==90){
+warping_direction += warp_rot;
+}
+
+var y_dist = lengthdir_y(warp_dist, warping_direction);
+var x_dist = lengthdir_x(warp_dist, warping_direction);
 		if(place_meeting(x+x_dist,y+y_dist,obj_wall)){
 			//Add failed to warp sound
 			audio_play_sound(snd_hurt,1,false);
