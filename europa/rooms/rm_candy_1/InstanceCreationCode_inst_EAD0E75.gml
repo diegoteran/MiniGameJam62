@@ -1,5 +1,5 @@
 targetRoom = rm_candy
-targetX = 67
-targetY = 95
+targetX = 40
+targetY = 115
 
 sprite_index = spr_candy_portal
