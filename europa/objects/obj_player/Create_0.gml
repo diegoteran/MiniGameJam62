@@ -38,7 +38,7 @@ shrink_ready = true;
 shrink_cooldown = 180;
 shrink_cooldown_timer = 0;
 shrink_rate = 60;
-shrink_crystal = true;
+shrink_crystal = false;
 
 // ghost mode
 ghost_enabled = false;

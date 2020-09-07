@@ -8,5 +8,6 @@ if(ghost_crystal && warp_crystal && shrink_crystal){
 	portal.targetRoom = rm_win;
 	portal.targetX = 500;
 	portal.targetY = 500;
+	portal.sprite_index = spr_big_portal;
 	instance_destroy();
 }
