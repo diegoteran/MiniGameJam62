@@ -18,7 +18,10 @@ case rm_forest_1:
 	   global.music = true;
     }
 	break;
-case rm_overworld: 
+case rm_overworld:
+	warp_enabled = false;
+	shrink_enabled = false;
+	ghost_enabled = false;
 	global.music = false;
 	audio_stop_sound(snd_the_woods_c);
 	audio_stop_sound(snd_space_bg);

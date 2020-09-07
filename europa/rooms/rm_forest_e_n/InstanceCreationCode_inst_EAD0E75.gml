@@ -1,3 +1,3 @@
 targetRoom = rm_forest_e
-targetX = 192
-targetY = 16
+targetX = 196
+targetY = 24
