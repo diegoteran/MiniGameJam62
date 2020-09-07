@@ -7,8 +7,13 @@ var fadeout1 = instance_create_layer(x,y, "Instances", obj_fadeout);
 fadeout1.sprite_index= sprite_index;
 fadeout1.fade_out = 10;
 
-var y_dist = lengthdir_y(warp_dist, facing_direction);
-var x_dist = lengthdir_x(warp_dist, facing_direction);
+var warping_direction = facing_direction;
+if(facing_direction == 270 || facing_direction ==90){
+warping_direction += warp_rot;
+}
+
+var y_dist = lengthdir_y(warp_dist, warping_direction);
+var x_dist = lengthdir_x(warp_dist, warping_direction);
 
 var fadeout2 = instance_create_layer(x+(x_dist/2), y+(y_dist/2), "Instances", obj_fadeout);
 fadeout2.sprite_index= sprite_index;
