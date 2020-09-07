@@ -44,6 +44,7 @@
     {"id":{"name":"obj_space_wall_left","path":"objects/obj_space_wall_left/obj_space_wall_left.yy",},"order":6,},
     {"id":{"name":"spr_dolly","path":"sprites/spr_dolly/spr_dolly.yy",},"order":22,},
     {"id":{"name":"rm_candy","path":"rooms/rm_candy/rm_candy.yy",},"order":1,},
+    {"id":{"name":"spr_player_shadow","path":"sprites/spr_player_shadow/spr_player_shadow.yy",},"order":51,},
     {"id":{"name":"obj_candy_cane_2","path":"objects/obj_candy_cane_2/obj_candy_cane_2.yy",},"order":6,},
     {"id":{"name":"spr_space_wall_left","path":"sprites/spr_space_wall_left/spr_space_wall_left.yy",},"order":9,},
     {"id":{"name":"obj_trophy","path":"objects/obj_trophy/obj_trophy.yy",},"order":7,},
