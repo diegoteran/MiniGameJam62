@@ -4,6 +4,6 @@ if (!debug_mode) {
 	return;	
 }
 
-room_goto(rm_forest_e)
-x = 32
-y = 112
+room_goto(rm_forest_boss)
+x = 240
+y = 192
