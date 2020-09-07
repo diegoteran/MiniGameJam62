@@ -5,7 +5,10 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_room_warp",
+    "path": "sprites/spr_room_warp/spr_room_warp.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

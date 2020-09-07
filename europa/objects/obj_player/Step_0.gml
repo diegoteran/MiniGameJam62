@@ -1,6 +1,9 @@
 if(anim_y){
 	y += anim_speed_y;
-	image_angle += 5;
+	
+	if(room == rm_space_3a){
+		image_angle += 5;
+	}
 	depth = -5000;
 	if( abs(y - anim_stop_posy) < 16){
 		anim_y = false;
