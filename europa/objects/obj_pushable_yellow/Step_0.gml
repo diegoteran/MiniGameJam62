@@ -33,7 +33,7 @@ if (player) {
 	var x_direction = abs(xdist) > abs(ydist);
 	if (x_direction) {
 		var new_speed = -1 * sign(xdist) * push_speed;
-		if(place_free(x + new_speed*collision_coeff, y)) {
+		if(place_free(x + new_speed*collision_coeff, y) && sign(new_speed) == sign(player.hspeed)) {
 			hspeed = new_speed;
 			vspeed = 0;
 		} else {
@@ -42,7 +42,7 @@ if (player) {
 		}
 	} else {
 		var new_speed = -1 * sign(ydist) * push_speed;
-		if(place_free(x, y + new_speed*collision_coeff)) {
+		if(place_free(x, y + new_speed*collision_coeff) && sign(new_speed) == sign(player.vspeed)) {
 			hspeed = 0;
 			vspeed = new_speed;
 		} else {

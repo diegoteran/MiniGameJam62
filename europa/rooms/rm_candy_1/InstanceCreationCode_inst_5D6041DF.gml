@@ -1,3 +1,3 @@
-var targetRoom = rm_candy_2;
-var targetX = 40;
-var targetY = 90;
+targetRoom = rm_candy_2;
+targetX = 30;
+targetY = 115;
