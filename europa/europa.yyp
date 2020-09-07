@@ -100,6 +100,7 @@
     {"id":{"name":"rm_space_1a","path":"rooms/rm_space_1a/rm_space_1a.yy",},"order":0,},
     {"id":{"name":"spr_flosswarp_side","path":"sprites/spr_flosswarp_side/spr_flosswarp_side.yy",},"order":3,},
     {"id":{"name":"spr_forest_guardian_bullet","path":"sprites/spr_forest_guardian_bullet/spr_forest_guardian_bullet.yy",},"order":1,},
+    {"id":{"name":"rm_candy_2","path":"rooms/rm_candy_2/rm_candy_2.yy",},"order":4,},
     {"id":{"name":"obj_mint","path":"objects/obj_mint/obj_mint.yy",},"order":3,},
     {"id":{"name":"spr_forest_wall_right","path":"sprites/spr_forest_wall_right/spr_forest_wall_right.yy",},"order":9,},
     {"id":{"name":"snd_candyland_bg","path":"sounds/snd_candyland_bg/snd_candyland_bg.yy",},"order":14,},
@@ -137,7 +138,6 @@
     {"id":{"name":"rm_forest_e_n_e_e","path":"rooms/rm_forest_e_n_e_e/rm_forest_e_n_e_e.yy",},"order":7,},
     {"id":{"name":"spr_candy_cane_1","path":"sprites/spr_candy_cane_1/spr_candy_cane_1.yy",},"order":6,},
     {"id":{"name":"obj_candy_cane_1","path":"objects/obj_candy_cane_1/obj_candy_cane_1.yy",},"order":5,},
-    {"id":{"name":"spr_player_shrunk","path":"sprites/spr_player_shrunk/spr_player_shrunk.yy",},"order":45,},
     {"id":{"name":"obj_forest_guardian","path":"objects/obj_forest_guardian/obj_forest_guardian.yy",},"order":3,},
     {"id":{"name":"rm_space_2a","path":"rooms/rm_space_2a/rm_space_2a.yy",},"order":1,},
     {"id":{"name":"rm_abyss","path":"rooms/rm_abyss/rm_abyss.yy",},"order":18,},
@@ -214,6 +214,7 @@
     {"name":"rm_forest_e_n_e_e","path":"rooms/rm_forest_e_n_e_e/rm_forest_e_n_e_e.yy",},
     {"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},
     {"name":"rm_space_4a","path":"rooms/rm_space_4a/rm_space_4a.yy",},
+    {"name":"rm_candy_2","path":"rooms/rm_candy_2/rm_candy_2.yy",},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
