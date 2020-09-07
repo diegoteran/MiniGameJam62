@@ -46,8 +46,12 @@ warp_ready = false;
 warp_cooldown_timer = 0;
 
 
-if(place_meeting(x,y,obj_wall)){	
-	dying = true;
+if(place_meeting(x,y,obj_wall)){
+	wall = instance_nearest(x,y,obj_wall);
+	if(point_distance(x,y,wall.x,wall.y) < 3){
+			dying = true;
 	can_move = false;
 	speed = 0;
+	}
+
 }
