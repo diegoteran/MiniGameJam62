@@ -18,12 +18,18 @@ case rm_forest_1:
 	   global.music = true;
     }
 	break;
+case rm_forest_boss:
+	audio_stop_sound(snd_the_woods_c);
+	audio_stop_sound(snd_the_woods_b);
+	audio_play_sound(snd_the_woods_b, 0, true);
+	break;
 case rm_overworld:
 	warp_enabled = false;
 	shrink_enabled = false;
 	ghost_enabled = false;
 	global.music = false;
 	audio_stop_sound(snd_the_woods_c);
+	audio_stop_sound(snd_the_woods_b);
 	audio_stop_sound(snd_space_bg);
 	audio_stop_sound(snd_candyland_bg);
 	audio_play_sound(snd_overworld_bg, 0, true);
