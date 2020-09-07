@@ -1,3 +1,3 @@
-targetRoom = rm_overworld
-targetX = 67
-targetY = 95
+targetRoom = rm_candy_1
+targetX = 40
+targetY = 115

@@ -1,3 +1,3 @@
 targetRoom = rm_candy
-targetX = 67
-targetY = 95
+targetX = 40
+targetY = 115
