@@ -4,5 +4,5 @@
 ghost = false;
 sprite_index = spr_player
 ghost_ready = false
-audio_play_sound(snd_ghost, 1, false);
+audio_play_sound(snd_unghost, 1, false);
 ghost_cooldown_timer = 0

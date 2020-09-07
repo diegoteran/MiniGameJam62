@@ -32,10 +32,9 @@ warp_crystal = false;
 // shrinking
 shrink_enabled = false;
 shrunk = false;
-shrink_scale = 0.5;
 shrink_timer = 0;
 shrink_ready = true;
-shrink_cooldown = 180;
+shrink_cooldown = 45;
 shrink_cooldown_timer = 0;
 shrink_rate = 60;
 shrink_crystal = false;

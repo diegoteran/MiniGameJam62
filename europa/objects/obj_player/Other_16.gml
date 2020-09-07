@@ -9,10 +9,10 @@ if(shrink_ready and shrink_enabled){
 			sprite_index = spr_player_shrunk_side;
 			break;
 		case 90:
-			sprite_index = spr_player_shrunk_up;
+			sprite_index = spr_player_shrunk;
 			break;
 		case 270:
-			sprite_index = spr_player_shrunk;
+			sprite_index = spr_player_shrunk_up;
 			break;
 	}
 	shrink_timer = 0;
